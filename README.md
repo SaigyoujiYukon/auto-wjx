@@ -9,3 +9,5 @@
 需要tampermonkey
 
 建议用Chrome
+
+如果自动提交失败自己拉下去按验证码
