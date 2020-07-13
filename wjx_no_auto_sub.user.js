@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name         Fuck问卷星
 // @version      0.09
-// @description  test
+// @description  问卷星链接自己填
 // @author       SaigyoujiYukon
-// @match        https://www.wjx.top/*
-// @match        https://www.wjx.cn/*
+// @match        https://www.wjx.cn/jq/54616692.aspx
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
 // ==/UserScript==
