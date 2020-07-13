@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fuck问卷星
-// @version      0.05
+// @version      0.09
 // @description  test
 // @author       SaigyoujiYukon
 // @match        https://www.wjx.top/*
