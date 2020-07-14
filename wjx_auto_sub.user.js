@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fuck问卷星
-// @version      0.09
+// @version      0.10
 // @description  问卷星链接自己填
 // @author       SaigyoujiYukon
 // @match        https://www.wjx.cn/jq/54616692.aspx
@@ -17,7 +17,7 @@
 (function() {
     'use strict';
     var myDate = new Date();
-    Date.prototype.Format = function (fmt) { // author: meizz
+    Date.prototype.Format = function (fmt) { // 时间格式化 author: meizz
     var o = {
         "M+": this.getMonth() + 1, // 月份
         "d+": this.getDate(), // 日
@@ -39,16 +39,16 @@
         ["hh",/(本人居住单元有确诊、疑似和居家隔离病例情况含地点（是.否）)/,/(否)/],
         ["[(√2-1)^0+(sin²1+cos²1+sin1cos1+1)！+3]^3 * (1+|∫<0, 2π>|cosx|dx)",/(学习强国分数，当前总得分)/],
         ["¿",/(目前在哪里)/,/(在广州市)/],
-        ["小畅",/(2月1号之后是否在温州居住、停留或者途径温州)/,/(否)/]
+        ["hhh",/(2月1号之后是否在温州居住、停留或者途径温州)/,/(否)/]
     ];
     const ini={
-        module:".div_question",//问题模块
+        module:".div_question",//模块
         title:".div_title_question",//标题
-        type:{
-           "input_text":".inputtext",
-           "radio":".ulradiocheck",
-           "checkbox":".ulradiocheck",
-           "underline":".underline",
+        type:{//类型
+           "input_text":".inputtext",//文本框
+           "radio":".ulradiocheck",//选择题
+           "checkbox":".ulradiocheck",//选择题
+           "underline":".underline",//姓名那个框
         }
     };
     $(document).ready(function(){
