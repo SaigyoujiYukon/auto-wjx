@@ -87,5 +87,8 @@
             }
         });
     });
-    setTimeout(function () {$('.submitbutton').click();}, 300);
+    setTimeout(function () {
+    	$('.submitbutton').click();//自动提交
+    	getById("rectMask").click();//智能验证
+    	}, 300);
 })();
