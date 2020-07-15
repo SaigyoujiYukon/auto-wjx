@@ -89,6 +89,6 @@
     });
     setTimeout(function () {
     	$('.submitbutton').click();//自动提交
-    	getById("rectMask").click();//智能验证
-    	}, 1000);
+        $('.rect-bottom').click();//自动验证
+   }, 300);
 })();
