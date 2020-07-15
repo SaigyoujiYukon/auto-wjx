@@ -90,5 +90,5 @@
     setTimeout(function () {
     	$('.submitbutton').click();//自动提交
         $('.rect-bottom').click();//自动验证
-   }, 300);
+   }, 1000);//这个延迟1秒比啥自动验证都好用
 })();
