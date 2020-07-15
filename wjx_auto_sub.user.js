@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fuck问卷星
-// @version      0.10
+// @version      0.11
 // @description  问卷星链接自己填
 // @author       SaigyoujiYukon
 // @match        https://www.wjx.cn/jq/54616692.aspx
@@ -90,5 +90,5 @@
     setTimeout(function () {
     	$('.submitbutton').click();//自动提交
     	getById("rectMask").click();//智能验证
-    	}, 300);
+    	}, 1000);
 })();
